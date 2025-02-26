@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YouTube.com Clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="Styles/sidebar.css">
+
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <header class="header">
+
+            <!-- Left Section -->
+            <div class="left-section">
+                
+                <img class="hamburger-menu" src="Icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="Icons/youtube-logo.svg">
+
+            </div>
+
+            <!-- Middle Section -->
+            <div class="middle-section">
+
+                <input class="search-bar" type="text" placeholder="Search">
+
+                <button class="search-button">
+                    
+                    <img class="search-icon" src="Icons/search.svg">
+
+                    <div class="tooltip">
+                        Search
+                   </div>
+
+                </button>
+
+                <button class="voice-search-button">
+                   
+                    <img class="voice-search-icon" src="Icons/voice-search-icon.svg"> 
+                   
+                   <div class="tooltip">
+                        Search with your voice
+                   </div>
+
+                </button>
+
+            </div>
+
+            <!-- Right Section -->
+            <div class="right-section">
+
+                <div class="upload-icon-container">
+
+                    <img class="upload-icon" src="Icons/upload.svg">
+
+                    <div class="tooltip">
+                        Create
+                    </div>
+
+                </div>
+                
+                
+                <div class="youtube-apps-container">
+
+                    <img class="youtube-apps-icon" src="Icons/youtube-apps.svg">
+
+                    <div class="tooltip">
+                        YouTube Apps
+                    </div>
+
+                </div>
+                
+
+                <div class="notifications-icon-container">
+                    
+                    <div class="notifications-container">
+                        
+                        <img class="notifications-icon" src="Icons/notifications.svg">
+
+                        <div class="tooltip">
+                            Notifications
+                        </div>
+
+                    </div>
+
+                    <div class="notifications-count">
+                        3
+                    </div>
+
+                </div>
+
+                <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+
+            </div>
+
+        </header>
+
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            
+            <div class="sidebar-link">
+                
+                <img src="Icons/home.svg">
+                
+                <div>
+                    Home
+                </div>
+
+            </div>
+
+            <div class="sidebar-link">
+                
+                <img src="Icons/explore.svg">
+
+                <div>
+                    Explore
+                </div>
+
+            </div>
+
+            <div class="sidebar-link">
+                
+                <img src="Icons/subscriptions.svg">
+
+                <div>
+                    Subscriptions
+                </div>
+
+            </div>
+
+            <div class="sidebar-link">
+                
+                
+                <img src="Icons/originals.svg">
+
+                <div>
+                    Orginials
+                </div>
+
+            </div>
+
+            <div class="sidebar-link">
+                
+                <img src="Icons/youtube-music.svg">
+
+                <div>
+                    YouTube Music
+                </div>
+
+            </div>
+
+            <div class="sidebar-link">
+                
+                <img src="Icons/library.svg">
+
+                <div>
+                    Library
+                </div>
+
+            </div>
+
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+
+            <!-- Video Grid -->
+            <section class="video-grid">
+
+                <!--Video One-->
+                <div class="video-preview">
+
+                    <div class="thumbnail-row">
+
+                        <a href="https://youtu.be/tIMtzkZ93gg?si=kAa1kuYRYtmc-Nk2"> <img class="thumbnail" src="thumbnails/thumbnail-1.avif"></a>
+
+                        <div class="video-time">
+                            2:55:10
+                        </div>
+
+                    </div>
+
+                    <div class="video-info-grid">
+
+                        <div class="channel-picture">
+
+                            <a href="https://www.youtube.com/@LofiLoungeAndCafe"><img class="profile-picture" src="channel-pictures/channel-1.jpg"></a>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <p class="video-title">
+                        
+                                cozy reading fort | calm lofi beats for comfort & focus
+                    
+                            </p>
+                    
+                            <p class="video-author">
+                    
+                                Lofi Lounge & Cafe
+                    
+                            </p>
+                    
+                            <p class="video-stats">
+                    
+                                203K views &#183; 1 months ago
+                    
+                            </p>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <!--Video Two-->
+                <div class="video-preview">
+
+                    <div class="thumbnail-row">
+
+                        <a href="https://youtu.be/CIqEjQCOwVI?si=Y5jAK4bg_9RWRHUX"><img class="thumbnail" src="thumbnails/thumbnail-2.avif"></a>
+
+                        <div class="video-time">
+                            17:34
+                        </div>
+
+                    </div>
+
+                    <div class="video-info-grid">
+
+                        <div class="channel-picture">
+
+                            <a href="https://www.youtube.com/@JoshArt02"><img class="profile-picture" src="channel-pictures/channel-2.jpg"></a>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <p class="video-title">
+                        
+                                sketch with me from start to finish, watch this for comfort
+                    
+                            </p>
+                    
+                            <p class="video-author">
+                    
+                                Josh Art
+                    
+                            </p>
+                    
+                            <p class="video-stats">
+                    
+                                58K views &#183; 11 days ago
+                    
+                            </p>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <!--Video Three-->
+                <div class="video-preview">
+
+                    <div class="thumbnail-row">
+
+                        <a href="https://www.youtube.com/live/e94hCLHEEsk?si=KHiP5EAXBFE5Z5P3"><img class="thumbnail" src="thumbnails/thumbnail-3.avif"></a>
+
+                        <div class="video-time">
+                            11:54:57
+                        </div>
+
+                    </div>
+
+                    <div class="video-info-grid">
+
+                        <div class="channel-picture">
+
+                            <a href="https://www.youtube.com/@LofiAilurophile-lq4oi"><img class="profile-picture" src="channel-pictures/channel-3.jpg"></a>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <p class="video-title">
+                        
+                                Peaceful night on the rooftop with my cat
+                                Lofi Hip Hop Mix Chill Beats to Relax/ Study to
+                    
+                            </p>
+                    
+                            <p class="video-author">
+                    
+                                Lofi Ailurphile
+                    
+                            </p>
+                    
+                            <p class="video-stats">
+                    
+                                620K views &#183; Streamed 1 year ago
+                    
+                            </p>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <!--Video Four-->
+                <div class="video-preview">
+
+                    <div class="thumbnail-row">
+
+                        <a href="https://youtu.be/cF_1TYlqtEI?si=AcG1UEyzsN_mMv-n"><img class="thumbnail" src="thumbnails/thumbnail-4.avif"></a>
+
+                        <div class="video-time">
+                            17:05
+                        </div>
+
+                    </div>
+
+                    <div class="video-info-grid">
+
+                        <div class="channel-picture">
+
+                            <a href="https://www.youtube.com/@SillyPotato"><img class="profile-picture" src="channel-pictures/channel-4.jpg"></a>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <p class="video-title">
+                        
+                                Lakeview Bakery | Aseprite x Blender Pixelart [038]
+                    
+                            </p>
+                    
+                            <p class="video-author">
+                    
+                                Sily Potato
+                    
+                            </p>
+                    
+                            <p class="video-stats">
+                    
+                                482K views &#183; 6 months ago
+                    
+                            </p>
+
+                        </div>
+
+                    
+                    </div>
+                    
+                </div>
+
+                <!--Video Five-->
+                <div class="video-preview">
+
+                    <div class="thumbnail-row">
+
+                        <a href="https://youtu.be/OO2kPK5-qno?si=VFk5QZX_uwlk5TXH"><img class="thumbnail" src="thumbnails/thumbnail-5.avif"></a>
+                        
+                        <div class="video-time">
+                            24:38:38
+                        </div>
+
+                    </div>
+
+                    <div class="video-info-grid">
+
+                        <div class="channel-picture">
+
+                            <a href="https://www.youtube.com/@lofi_cafe_s2"><img class="profile-picture" src="channel-pictures/channel-5.jpg"></a>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <p class="video-title">
+                        
+                                Make you feel positive and peaceful Lofi Coffee ~ 
+                                Lofi Hip - Lofi Music [ Study/Relax ]
+                    
+                            </p>
+                    
+                            <p class="video-author">
+                    
+                                Lofi Coffee
+                    
+                            </p>
+                    
+                            <p class="video-stats">
+                    
+                                4.8M views &#183; 9 months ago
+                    
+                            </p>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <!--Video Six-->
+                <div class="video-preview">
+
+                    <div class="thumbnail-row">
+
+                        <a href="https://youtu.be/CfPxlb8-ZQ0?si=zevNxZtIBmmPuPlI"><img class="thumbnail" src="thumbnails/thumbnail-6.avif"></a>
+
+                        <div class="video-time">
+                            3:22:29
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="video-info-grid">
+
+                        <div class="channel-picture">
+
+                            <a href="https://www.youtube.com/@MusictagJazz"><img class="profile-picture" src="channel-pictures/channel-6.jpg"></a>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <p class="video-title">
+                        
+                                Work & Study Lofi Jazz - Relaxing Smooth Background Jazz
+                                Music for Work, Study, Focus, Coding
+                    
+                            </p>
+                    
+                            <p class="video-author">
+                    
+                                Musictag
+                    
+                            </p>
+                    
+                            <p class="video-stats">
+                    
+                                20M views  &#183; 4 years ago
+                    
+                            </p>
+
+                        </div>
+
+                        
+
+                    </div>
+                    
+                </div>
+
+                <!-- Video Seven -->
+                <div class="video-preview">
+
+                    <div class="thumbnail-row">
+
+                        <a href="https://youtu.be/bBQA7yy7EBU?si=2BK3JpRgrA6RvE0j"><img class="thumbnail" src="thumbnails/thumbnail-7.avif"></a>
+
+                        <div class="video-time">
+                            2:56:10
+                        </div>
+
+                    </div>
+
+                    <div class="video-info-grid">
+
+                        <div class="channel-picture">
+
+                            <a href="https://www.youtube.com/channel/UCiC2wfbkgr8DU5uOQFz9OrQ"><img class="profile-picture" src="channel-pictures/channel-7.jpg"></a>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <p class="video-title">
+                        
+                                Jazzy Hiphop - Lo-fi Coffee time / for study / Focus / Relax
+                    
+                            </p>
+                    
+                            <p class="video-author">
+                    
+                                chill chill journal
+                    
+                            </p>
+                    
+                            <p class="video-stats">
+                    
+                                2M views  &#183; 6 months ago
+                    
+                            </p>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <!-- Video Eight -->
+                <div class="video-preview">
+
+                    <div class="thumbnail-row">
+
+                        <a href="https://youtu.be/ZrKPW5d3idY?si=fXKVJY7KmU5aOjlU"><img class="thumbnail" src="thumbnails/thumbnail-8.avif"></a>
+
+                        <div class="video-time">
+                            1:43:54
+                        </div>
+
+                    </div>
+
+                    <div class="video-info-grid">
+
+                        <div class="channel-picture">
+
+                            <a href="https://www.youtube.com/@nmh0413"><img class="profile-picture" src="channel-pictures/channel-8.jpg"></a>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <p class="video-title">
+                        
+                                A playlist for night studies (Dark academia)
+                    
+                            </p>
+                    
+                            <p class="video-author">
+                    
+                                nmh 2
+                    
+                            </p>
+                    
+                            <p class="video-stats">
+                    
+                                5.6M views  &#183; 1 year ago
+                    
+                            </p>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <!-- Video Nine -->
+                <div class="video-preview">
+
+                    <div class="thumbnail-row">
+
+                        <a href="https://youtu.be/D-cKmLBdTL8?si=raaIxaZghdH_ScT6"><img class="thumbnail" src="thumbnails/thumbnail-9.avif"></a>
+
+                        <div class="video-time">
+                            11:34
+                        </div>
+
+                    </div>
+
+                    <div class="video-info-grid">
+
+                        <div class="channel-picture">
+
+                            <a href="https://www.youtube.com/@DesireLACAPTURE"><img class="profile-picture" src="channel-pictures/channel-9.jpg"></a>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <p class="video-title">
+                        
+                                How to make ANY video CINEMATIC | tips, tricks, & definition
+                    
+                            </p>
+                    
+                            <p class="video-author">
+                    
+                                lacapturevisuals
+                    
+                            </p>
+                    
+                            <p class="video-stats">
+                    
+                                589K views  &#183; 1 year ago
+                    
+                            </p>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <!-- Video Ten -->
+                <div class="video-preview">
+
+                    <div class="thumbnail-row">
+
+                        <a href="https://youtu.be/A214j_Wwl-0?si=oiknPYnMCa3Sd8Hd"><img class="thumbnail" src="thumbnails/thumbnail-10.avif"></a>
+
+                        <div class="video-time">
+                            2:56:10
+                        </div>
+
+                    </div>
+
+                    <div class="video-info-grid">
+
+                        <div class="channel-picture">
+
+                            <a href="https://www.youtube.com/@CozyRain"><img class="profile-picture" src="channel-pictures/channel-10.jpg"></a>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <p class="video-title">
+                        
+                                Cozy Reading Nook Ambience with Gentle Night Rain & Fireplace (3 Hours)
+                    
+                            </p>
+                    
+                            <p class="video-author">
+                    
+                                Cozy Rain
+                    
+                            </p>
+                    
+                            <p class="video-stats">
+                    
+                                178K views  &#183; 1 year ago
+                    
+                            </p>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <!-- Video Eleven -->
+                <div class="video-preview">
+
+                    <div class="thumbnail-row">
+
+                        <a href="https://youtu.be/EFWMnvOwLMY?si=CaqadCNdjZX9a-b1"><img class="thumbnail" src="thumbnails/thumbnail-11.avif"></a>
+
+                        <div class="video-time">
+                            1:02:16
+                        </div>
+
+                    </div>
+
+                    <div class="video-info-grid">
+
+                        <div class="channel-picture">
+
+                            <a href="https://www.youtube.com/@TheDreamersMusic_Official"><img class="profile-picture" src="channel-pictures/channel-11.jpg"></a>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <p class="video-title">
+                        
+                                you're studying while someone is playing the piano in another room (playlist)
+                    
+                            </p>
+                    
+                            <p class="video-author">
+                    
+                                The Dreamers
+                    
+                            </p>
+                    
+                            <p class="video-stats">
+                    
+                                3.6M views  &#183; 2 years ago
+                    
+                            </p>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <!-- Video Twelve -->
+                <div class="video-preview">
+
+                    <div class="thumbnail-row">
+
+                        <a href="https://youtu.be/u8byNtXpaPk?si=J__v8oRl9UuEgewX"><img class="thumbnail" src="thumbnails/thumbnail-12.avif"></a>
+
+                        <div class="video-time">
+                            4:00
+                        </div>
+
+                    </div>
+
+                    <div class="video-info-grid">
+
+                        <div class="channel-picture">
+
+                            <a href="https://www.youtube.com/@shotbywang"><img class="profile-picture" src="channel-pictures/channel-12.jpg"></a>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <p class="video-title">
+                        
+                                the ideas we lose by morning
+                    
+                            </p>
+                    
+                            <p class="video-author">
+                    
+                                leo
+                    
+                            </p>
+                    
+                            <p class="video-stats">
+                    
+                                818k views  &#183; 2 months ago
+                    
+                            </p>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+            </section>
+
+        </main>
+    
+    </body>
+
+</html>
